@@ -1,0 +1,110 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+// nav
+nav {
+    margin-top: 58px;
+}
+
+.nav .container {
+    display: flex;
+}
+
+.nav .brand {
+    width: 20%;
+}
+
+.nav .ctas {
+    width: 20%;
+    font-weight: 600;
+}
+
+.nav .menu {
+    width: 60%;
+}
+
+
+.nav .brand {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nav .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav .menu-item {
+    color: #000;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.nav .menu-item-active {
+    opacity: 1;
+    font-weight: 600;
+}
+
+.nav .menu-item:hover {
+    opacity: 1;
+}
+
+.nav .ctas {
+    text-align: right;
+}
+
+.nav .sign-up {
+    padding: 10px 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    text-decoration: none;
+    color: #000;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+//nav
+
+//main
+
+.hero {
+    align-items: center;
+    padding: 135px;
+    text-align: center;
+}
+
+.hero-headline {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.sub-headline {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.cta-primary,
+ .cta-secondary {
+    padding: 17px 12px;
+    display: inline-block;
+ }
+
+.cta-primary {
+    background-color: #001AFF;
+    color: #ffffff;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.cta-secondary {
+    color: #001AFF;
+}
